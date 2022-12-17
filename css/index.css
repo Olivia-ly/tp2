@@ -1,0 +1,307 @@
+/*
+feuille de style principale
+tp2
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+
+
+/*Règle @*/
+
+
+
+
+/* menu principale*/
+body{
+    width: 100vw;
+    background-color: pink;
+    margin: 0;
+    overflow-x: hidden;
+    
+    
+}
+
+/* les conteneurs*/
+header{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/universNitendo.jpg") ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+    
+    
+
+}
+
+#acceuil {
+    display: flex;
+    padding: 250px;
+    justify-content: center;
+    color:black; 
+    font-family: "Press Start 2P";
+    
+}
+
+
+nav{
+    width: 100vw;
+    height: 100vh;
+    
+    
+    
+}
+
+
+/*balise de contenue*/
+/*menu principale*/
+.liste{
+    width: 100vw;
+    background-color:beige;
+    display:inline-block;
+    position: fixed;
+    top: 0;
+    
+    
+}
+
+
+
+
+.liste ul{
+    list-style-type: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik Vinyl";
+    font-size: 2em;
+    
+    
+    
+    
+}
+
+a:hover {
+    color:lightpink
+    
+    
+}
+
+
+
+
+                                     /* inscription css*/
+
+
+#inscription{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 200px;
+    
+    
+}
+
+form{
+    margin: 0 auto; 
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: 5px solid black;
+    height: 75vh;
+    
+    
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    font-family: "Press Start 2P";
+    
+}
+fieldset:nth-of-type(1),fieldset:nth-of-type(2) {
+    width: 10vw;
+}
+
+.colonne:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+
+.colonne {
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    width: 30vw;
+    
+}
+#boutons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 0 80%;
+	
+
+
+}
+legend{
+font-family: "Press Start 2P";
+}
+
+
+
+
+
+
+
+                                        /*tableau css*/
+#tableau{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    justify-content: center;
+}
+table{
+    width: 50vw;
+    height: 50vh;
+}
+
+
+th, td{
+    border : 5px solid #333;
+    width: 40vw;
+    height: 10vh;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Press Start 2P";
+    
+    
+}
+caption{
+      font-family: "Press Start 2P";
+      
+
+  }
+  td:hover, caption:hover{
+    color: yellow;
+  }
+ 
+  .red{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+3,a90329+3,8f0222+66,8f0222+76,6d0019+100 */
+background: #a90329; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #a90329 3%, #a90329 3%, #8f0222 66%, #8f0222 76%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #a90329 3%,#a90329 3%,#8f0222 66%,#8f0222 76%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #a90329 3%,#a90329 3%,#8f0222 66%,#8f0222 76%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  }
+  .rose{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,d24b5a+50,ba2737+51,f18e99+100;Red+Gloss+%233 */
+background: #efc5ca; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #efc5ca 0%, #d24b5a 50%, #ba2737 51%, #f18e99 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  }
+  .rouge{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,d24b5a+50,ba2737+51,f18e99+100;Red+Gloss+%233 */
+background: #efc5ca; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #efc5ca 0%, #d24b5a 50%, #ba2737 51%, #f18e99 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  }
+
+
+                                      /*article*/
+#article{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+     
+.principale{
+    width: 25vw;
+    font-family: "Press Start 2P";
+    display: inline;
+    padding-left: 80px;
+    
+    
+   
+    
+}
+.principale > section{
+    font-size: 1.5em;
+    
+    
+}
+ 
+                          /*galerie*/
+
+#images{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    
+
+}
+#galerie{
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+
+}
+/*video*/
+#video{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+
+
+
+
+
+
+                        
+
+
+                                      /*footer*/
+footer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(244, 220, 224);
+    
+    
+}
+dd, dt{
+    padding-left: 50px;
+   
+}
+.logo{
+    padding-left: 100px;
+}
